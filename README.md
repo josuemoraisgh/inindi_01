@@ -1,8 +1,6 @@
-# inindi_01
+# Aula 01 de Instrumentação Industrial I - Teste da comunicação serial com platform.io e teleplot
 
-Aula de Instrumentação Industrial I - Teste da comunicação serial com platform.io e teleplot
-
-# Boas práticas para escrita das mensagens de commits
+## Boas práticas para escrita das mensagens de commits
 
 📌 Não pense que seu código é autoexplicativo: Se esforce para escrever uma mensagem que retrate de forma concisa exatamente o que aquela alteração significa.
 
@@ -17,7 +15,7 @@ Aula de Instrumentação Industrial I - Teste da comunicação serial com platfo
         test: tudo o que for relacionado a testes;
         docs: tudo o que for relacionado à documentação;
         chore: manutenção regular do código. 
-        
+
 📌 Use um verbo no infinitivo: A mensagem do campo “Assunto” (primeira linha) deve iniciar a com um verbo no infinitivo que descreva a ação realizada (Ex: "Adicionar", "Corrigir" ou "Atualizar"), seguido por uma descrição concisa da mudança. Ex: "Adicionar validação de formulário para garantir que todos os campos obrigatórios sejam preenchidos".
 
 📌 Mantenha-a curta e concisa: As mensagens de commit devem ser curtas e diretas, com no máximo 72 caracteres na primeira linha (assunto) e uma linha em branco após a primeira linha (descrição). Isso torna mais fácil para outros desenvolvedores entenderem rapidamente o que foi feito.
