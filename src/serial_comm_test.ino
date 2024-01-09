@@ -13,16 +13,16 @@ void loop()
   i += 0.1;
 
   // Print log
-  Serial.print("casa");
-  Serial.println(i);
+  //Serial.print("casa");
+  //Serial.println(i);
 
   // Plot a sinus
-  Serial.print(">sin:");
+  //Serial.print(">sin:");
   Serial.println(sin(i));
 
   // Plot a cosinus
-  Serial.print(">cos:");
-  Serial.println(cos(i));
+  //Serial.print(">Sum:");
+  //Serial.println(sin(i)+cos(i));
 
   delay(50);
 }
