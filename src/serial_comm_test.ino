@@ -22,7 +22,7 @@ void loop()
 
   // Plot a cosinus
   Serial.print(">Sum:");
-  Serial.println(sin(i)+cos(i));
+  Serial.println(0.8*sin(i)+0.2*cos(i));
 
   delay(50);
 }
