@@ -1,0 +1,13 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-308,-372" rotation="0" hflip="1" vflip="1" label="Arduino Uno-1" idLabPos="100,-21" labelrot="0" valLabPos="0,0" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../.pio/build/uno/firmware.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="SerialPort" CircId="SerialPort-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-264,-408" rotation="0" hflip="1" vflip="1" label="SerialPort-3" idLabPos="-34,-20" labelrot="0" valLabPos="0,0" valLabRot="0" Port="COM3" Baudrate="115200 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="SerialPort-3-pin1" endpinid="Uno-1-1" pointList="-304,-400,-304,-380,-276,-380,-276,-348,-300,-348" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="SerialPort-3-pin0" endpinid="Uno-1-0" pointList="-304,-416,-340,-416,-340,-356,-300,-356" />
+
+</circuit>
